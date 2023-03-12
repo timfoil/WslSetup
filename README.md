@@ -1,0 +1,1 @@
+Notes on what I did to setup wsl (and various technologies) on my computer so if I have to do it again quickly... I can do it again quickly. (Also keep track of what has been installed)
