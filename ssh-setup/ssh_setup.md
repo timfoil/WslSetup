@@ -88,13 +88,13 @@ which starts the ssh-agent and keychain program if not running? (first-line), an
 
 restarted wsl and can now see that ssh-agent is running in the background with `ps ax` (or `ps ax | grep ssh-agent` if we eventually install a bunch of programs )
 
-### output
-
 `2784 ?        Ss     0:00 ssh-agent`
 
 We also were asked for the ssh-key password on startup which it accepted.
 
 Decided to add this repo to github using vscode's built in git helper. Forgot about to setting up git's username/email defaults did this by running these commands in "git bash" ...
+
+## Git config and github setup
 
 ``` bash
 git config --global user.name "Tim Travitz"
