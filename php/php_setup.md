@@ -8,9 +8,9 @@ I'm not a big fan of this because it's literally maintained by some guy, but I d
 - instructions on how to download and install php otherwise are scarce 
 
 - I looked into manually downloading php from php.net and a tar.gz file is provided with some confusing blurbs about apache/nginx which I think are addons 
-    - there weren't really detailed instuctions & I'm not sure about the typical way of installing things on ubuntu besides just adding things to PATH 
-    - I figured I'd probabably mess it up doing it on my own without more guidance
-    - I could not find any resources that reccomended downloading php this way
+    - there weren't really detailed instructions & I'm not sure about the typical way of installing things on ubuntu besides just adding things to PATH 
+    - I figured I'd probably mess it up doing it on my own without more guidance
+    - I could not find any resources that recommended downloading php this way
 - most/all resources pointed me towards installing this way and I'd rather not do a custom install when I don't really know best practices for locations/permissions/setup
 - this repository has been around for a long time and most online resources were touting it's efficacy & trustworthiness
 

@@ -118,6 +118,6 @@ Finally I add the id_rsa.pub (the ssh public key) to github which will allow me 
 
 Login on github, click on user icon, go to settings > ssh and gpg keys > New SSH key 
 
-Give key I'm adding an arbitary name, "Tim's New Computer Key". Select authentication key and paste the contents of the id_rsa.pub we generated earlier into the Key field.
+Give key I'm adding an arbitrary name, "Tim's New Computer Key". Select authentication key and paste the contents of the id_rsa.pub we generated earlier into the Key field.
 
 Everything seems to have been setup.
