@@ -13,6 +13,8 @@ It places a composer.phar file in the directory you run the installer in. Instal
 
 I wanted to install globally, to do that you just add the dir you installed in (added composer.phar to) to your PATH.
 
-I placed mine in ~/bin (which I created, idk if this kind of setup is standard or not)
+I placed mine in `~/bin` (which I created, idk if this kind of setup is standard or not)
+
+**edit:** I moved this to `/usr/local/bin` which is conventionally the typical place for users/admin to install software system-wide. Typically `~/.local/bin` is the convention used for per-user installations (this isn't part of PATH by default though so needs to be added). Also note that files in `/usr/local/bin` typically have root as the owner and group. So run `chgrp root composer` and `chown root composer`, it also should be set to have 755 permissions but that was already taken care of for me.
 
 rename composer.phar to just composer (aka `mv composer.phar composer`) you invoke composer with `php composer.phar` but there is a shebang by default in the file to run with php so we can now just use `composer` anywhere as we please
