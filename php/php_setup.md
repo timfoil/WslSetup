@@ -17,8 +17,6 @@ I'm not a big fan of this because it's literally maintained by some guy, but I d
 
 Not great reasons I know, but I wanted something standard, easy, and well-documented for setup instead of doing something I might have to fiddle with.
 
-sudo add-apt-repository ppa:ondrej/php # Press enter when prompted.
-sudo apt update
 
 ```
 sudo add-apt-repository ppa:ondrej/php
